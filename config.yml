@@ -1,0 +1,16 @@
+title: JAI HIND
+description: DAFF SCVEFEWF DVEFDAS SAFWAFW4BER DEFQDADAFGW BDFGADFADFvsf vsdfsad
+template:
+  repo: jai-hind-template
+  name: jai-hind
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
